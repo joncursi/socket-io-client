@@ -1,5 +1,5 @@
 # socket-io-client
-A Meteor binary package for the NPM [socket.io-client](https://www.npmjs.org/package/socket.io-client) package.
+A Meteor wrapper for the NPM [socket.io-client](https://www.npmjs.org/package/socket.io-client) binary package.
 
 ## Purpose
 This package enables the Meteor server to communicate with an external server over a socket.io connection. Once a the connection is established to the external server, the Meteor server behaves as the client and receives the data stream.
