@@ -1,0 +1,1 @@
+io = Npm.require('socket.io-client');
