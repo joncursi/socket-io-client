@@ -48,7 +48,7 @@ socket.on('connect', Meteor.bindEnvironment(function() {
 ```
 
 ## Supported Architectures
-This binary package is compiled with [Meteor Build](https://www.meteor.com/services/build) and should work on all three of the officially supported Meteor architectures:
+This binary package is compiled with [Meteor Build](https://www.meteor.com/services/build) and should work on all four of the officially supported Meteor architectures:
 - OS X (`os.osx.x86_64`)
 - Linux on 64-bit Intel (`os.linux.x86_64`)
 - Linux on 32-bit Intel (`os.linux.x86_32`)
