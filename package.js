@@ -1,7 +1,7 @@
 Package.describe({
   name: 'joncursi:socket-io-client',
   summary: 'A Meteor package wrapper for the official socket.io-client',
-  version: '0.1.3',
+  version: '0.1.4',
   git: 'https://github.com/joncursi/socket-io-client'
 });
 
@@ -20,5 +20,5 @@ Package.onUse(function (api, where) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('joncursi:socket-io-client');
-  api.addFiles('joncursi:socket-io-client-tests.js');
+  api.addFiles('socket-io-client-tests.js');
 });
