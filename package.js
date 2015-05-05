@@ -11,7 +11,7 @@ Npm.depends({
 
 Package.onUse(function (api, where) {
   api.versionsFrom('1.0');
-  api.addFiles(['joncursi:socket-io-client.js'], 'server');
+  api.addFiles(['socket-io-client.js'], 'server');
   if (api.export) {
     api.export('io');
   }
