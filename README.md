@@ -52,3 +52,4 @@ This binary package is compiled with [Meteor Build](https://www.meteor.com/servi
 - OS X (`os.osx.x86_64`)
 - Linux on 64-bit Intel (`os.linux.x86_64`)
 - Linux on 32-bit Intel (`os.linux.x86_32`)
+- Windows
