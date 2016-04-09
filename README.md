@@ -1,10 +1,21 @@
 # socket-io-client
-A Meteor wrapper for the NPM [socket.io-client](https://www.npmjs.org/package/socket.io-client) binary package.
+A Meteor wrapper for the npm [socket.io-client](https://www.npmjs.org/package/socket.io-client) binary package.
 
-## Purpose
+## Meteor 1.3+
+Meteor 1.3+ projects should install [Socket IO](https://www.npmjs.com/package/socket.io-client) directly from npm instead of using this package.
+
+```
+meteor npm install --save socket.io-client
+```
+
+For more information, refer to the [Meteor Guide](http://guide.meteor.com/1.3-migration.html#packages)
+
+## Pre Meteor 1.3
+
+### Purpose
 This package enables the Meteor server to communicate with an external server over a socket.io connection. Once a the connection is established to the external server, the Meteor server behaves as the client and receives the data stream.
 
-## Usage
+### Usage
 This package exposes a global variable `io` on the Meteor server in order to establish a websocket connection. Example usage:
 
 ```javascript
@@ -47,7 +58,7 @@ socket.on('connect', Meteor.bindEnvironment(function() {
 }));
 ```
 
-## Supported Architectures
+### Supported Architectures
 This binary package is compiled with [Meteor Build](https://www.meteor.com/services/build) and should work on all four of the officially supported Meteor architectures:
 - OS X (`os.osx.x86_64`)
 - Linux on 64-bit Intel (`os.linux.x86_64`)
